@@ -1,0 +1,17 @@
+# Build artifacts
+*.o
+*.out
+*.a
+*.so
+*.exe
+*.elf
+
+# Executable binary
+mini-shell
+
+# Vscode
+.vscode
+
+
+
+
