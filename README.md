@@ -53,3 +53,6 @@ mini-shell> exit
 | ➕ Command history (arrow keys) via GNU Readline | ⬜ Planned |
 | ➕ Background process execution (`sleep 5 &`) | ⬜ Planned |
 | ➕ Environment variable expansion (`echo $HOME`) | ⬜ Planned |
+
+## Diagram explaining the interaction between shell and system calls 
+![alt text](<diagram_inter.png>)
