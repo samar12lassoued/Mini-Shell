@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -g
-SRC = src/main.c src/parser.c src/executor.c src/execute_built_in_commands.c
+SRC = src/main.c src/parser.c src/executor.c src/execute_built_in_commands.c src/handle_command.c
 INC = -Iinclude
 
 mini-shell: $(SRC) 
