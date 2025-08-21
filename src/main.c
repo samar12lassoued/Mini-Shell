@@ -18,7 +18,7 @@ int main()
         if (!fgets(input, MAX_LINE, stdin))
             break;
 
-        input[strcspn(input, "\n")] = '\0'; // remove newline
+        input[strcspn(input, "\n")] = '\0'; 
 
         char **args = parse_input(input);
 
@@ -30,7 +30,7 @@ int main()
 
         execute_commands(args);
 
-        // Free allocated memory
+        
         for (int i = 0; args[i] != NULL; i++)
             free(args[i]);
         free(args);
